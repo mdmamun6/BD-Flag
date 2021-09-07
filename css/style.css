@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 30px;   
+    height: 1000px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: monospace;
+} 
+a, a:hover{
+    text-decoration: none;
+}
+.head{
+    
+    text-align: center;
+    font-size: 45px;
+    margin: 2% auto;    
+}
+.green{
+    width: 800px;
+    height: 400px;
+    background: green;
+    position: relative;
+    margin: 50px auto;
+}
+.red{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 100%; 
+    position: absolute;
+    top: 22%; 
+    left: 36%;  
+}
+.para{
+    font-size: 24px;
+    font-style: inherit;
+    text-align: center;
+    margin: 2% auto;
+}
+.sharefb{
+    width: 150px;
+    position: fixed;
+    top: 40%;
+    right: -101px;
+    transition: 1s;
+}
+.sharefb:hover{
+    right: -1px;
+    cursor: pointer;   
+}
+.shareinsta{
+    width: 150px;
+    position: fixed;
+    top: 50%;
+    right: -110px;
+    transition: 1s;
+}
+.shareinsta:hover{
+    right: -1px; 
+    cursor: pointer;    
+}
+.shareyou{
+    width: 150px;
+    position: fixed;
+    top: 60%;
+    right: -100px;
+    transition: 1s;
+}
+.shareyou:hover{
+    right: -1px;  
+    cursor: pointer;   
+}
+.sharetwit{
+    width: 150px;
+    position: fixed;
+    top: 70%;
+    right: -105px;
+    transition: 1s;
+}
+.sharetwit:hover{
+    right: -1px; 
+    cursor: pointer;    
+}
+.sharein{
+    width: 150px;
+    position: fixed;
+    top: 80%;
+    right: -105px;
+    transition: 1s;
+}
+.sharein:hover{
+    right: -1px;  
+    cursor: pointer;   
+}
+.social-media{
+    width: 100%;
+    margin: 80px 0px;
+    padding: 80px 0px;   
+    background-color: grey;
+}
+.social-icon{
+    text-align: center;
+    width: 100%;
+}
+.social-icon li{
+    list-style: none;
+    display: inline-block;    
+}
+.social-icon li a .fa{
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    font-size: 30px;
+    margin: 0px 5px;
+    transition: 1s;
+    background: blue;
+}
+.social-icon li a .fa-facebook{   
+    background: #FFFFFF;
+    color: #1778f2;   
+}
+.social-icon li a .fa-facebook:hover{
+    background: #1778f2;
+    color: white;   
+}
+.social-icon li a .fa-instagram{   
+    background: #b30545;
+    color: #FFFFFF;   
+}
+.social-icon li a .fa-instagram:hover{
+    background:#FFFFFF;
+    color: #D13871;   
+}
+.social-icon li a .fa-twitter{   
+    background: #1da1f2;
+    color: #f5f8fa;   
+}
+.social-icon li a .fa-twitter:hover{
+    background: #FFFFFF;
+    color: #1da1f2;   
+}
+.social-icon li a .fa-linkedin{   
+    background: #4285f4;
+    color: #FFFFFF;   
+}
+.social-icon li a .fa-linkedin:hover{
+    background:#FFFFFF;
+    color: #4285f4;   
+}
+.social-icon li a .fa-youtube{   
+    background: #FF0000;
+    color: #FFFFFF;   
+}
+.social-icon li a .fa-youtube:hover{
+    background: white;
+    color: #FF0000;   
+}
+.social-icon li a .fa-behance{   
+    background: #FFFFFF;
+    color: #0884FF;   
+}
+.social-icon li a .fa-behance:hover{
+    background: #0884FF;
+    color: #FFFFFF;   
+}
